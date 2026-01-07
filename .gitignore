@@ -1,0 +1,23 @@
+# Python bytecode (biar folder __pycache__ gak ikut)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Jangan di-upload, orang lain bakal install sendiri)
+venv/
+env/
+.venv/
+
+# Secrets (Sangat Penting! Jangan sampai API Key bocor)
+.env
+
+# Database (Data lokal kamu tidak perlu di-upload)
+*.db
+*.sqlite3
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Streamlit logs
+.streamlit/
